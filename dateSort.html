@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dateSort</title>
+    <link rel="stylesheet" href="styles-dateSort.css">
+    <script src="script-dateSort.js" defer></script>
+</head>
+
+<body>
+    <div class="flex-container">
+        <h1 class="flex-item">Events Sorted By Date</h1>
+        <div class="flex-item event">
+            <span class="name">Name</span>
+            <span class="date">Date</span>
+            <button class="delete">Delete</button>
+            <span class="description">^ Description ^</span>
+        </div>
+
+        <div class="flex-item form-container">
+            <div class="form-item">
+                <label for="event-name">Event Name: </label>
+                <input id="event-name" type="text">
+            </div>
+            <div class="form-item">
+                <label for="event-date">Event Date: </label>
+                <input id="event-date" type="date">
+            </div>
+            <div class="form-item">
+                <label for="event-description">Event Description: </label>
+                <input id="event-description" type="text">
+            </div>
+
+            
+            <button id="add-event" class="flex-item">Add Event</button>
+        </div>
+    </div>
+</body>
+</html>
